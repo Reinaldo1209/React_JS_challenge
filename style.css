@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+.background{
+    background-image: url('./backgroundpc.svg');
+    background-position: top;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
