@@ -12,6 +12,20 @@ export default function Cadastro(){
         password: ''
     });
 
+    const handleChange = e => {
+        const { name, value } = e.target;
+        setUser(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
+
+
+    function validate(){
+        localStorage.setItem("user",JSON.stringify(user));
+        console.log(localStorage.getItem("user"))
+    }
+
     return (
         <div className="formulario">
             <h1>
@@ -20,35 +34,35 @@ export default function Cadastro(){
             <h3>
                 Please, register to continue
             </h3>
-            <form action="">
+            {/* <form onSubmit={validate}> */}
                 <div className="inputplace">
-                    <label for="firstsname">first name <input type="text" value={user.firstname} onChange={(e) => setUser(e.target.value)} placeholder="Your first name"/></label>
+                    <label for="firstsname">first name <input type="text" value={user.firstname} name="firstname" onChange={handleChange} placeholder="Your first name"/></label>
                 </div>
                 <div>
-                    <label for="firstsname">last name<input type="text" value={user.lastname} onChange={(e) => setUser(e.target.value)} placeholder="Your last name"></input></label>
+                    <label for="firstsname">last name<input type="text" value={user.lastname} name="lastname" onChange={handleChange} placeholder="Your last name"></input></label>
                 </div>
                 <div>
-                    <label for="firstsname">birth date <input type="text" value={user.birthdate} onChange={(e) => setUser(e.target.value)} placeholder="MM/DD/YYYY"></input> </label>
+                    <label for="firstsname">birth date <input type="text" value={user.birthdate} name="birthdate" onChange={handleChange} placeholder="MM/DD/YYYY"></input> </label>
                 </div>
                 <div>
-                    <label for="firstsname">Country <input type="text" value={user.country} onChange={(e) => setUser(e.target.value)} placeholder="Your Country"></input></label>
+                    <label for="firstsname">Country <input type="text" value={user.country} name="country" onChange={handleChange} placeholder="Your Country"></input></label>
                 </div>
                 <div>
-                    <label for="firstsname">City <input type="text" value={user.city} onChange={(e) => setUser(e.target.value)} placeholder="Your City"></input></label>
+                    <label for="firstsname">City <input type="text" value={user.city} name="city" onChange={handleChange} placeholder="Your City"></input></label>
                 </div>
                 <div>
-                    <label for="firstsname">e-mail <input type="text" value={user.email} onChange={(e) => setUser(e.target.value)} placeholder="A valid e-mail here"></input></label>
+                    <label for="firstsname">e-mail <input type="text" value={user.email} name="email" onChange={handleChange} placeholder="A valid e-mail here"></input></label>
                 </div>
                 <div>
-                    <label for="firstsname">password <input type="text" value={user.password} onChange={(e) => setUser(e.target.value)} placeholder="Your password"></input></label>
+                    <label for="firstsname">password <input type="text" value={user.password} name="password" onChange={handleChange} placeholder="Your password"></input></label>
                 </div>
                 <div>
                     <label for="firstsname">password <input type="text" placeholder="Confirm your password"></input></label>
                 </div>
                 <div>
-                    <button>Register Now</button>
+                    <button onClick={validate}>RE</button>
                 </div>
-            </form>
+            {/* </form> */}
         </div>
     )
 }
