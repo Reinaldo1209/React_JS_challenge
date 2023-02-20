@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.background{
+    width: 50%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+
+
+h1{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 50;
+}
+h2{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 50;
+  margin-top: 30%;
+}
+h5{
+  font-size: .9rem;
+  color: #fff;
+  font-weight: 50;
+}
+.formulario{
+  width: 50%;
+  background: linear-gradient(#33383D, #1C1D20);
+  padding: 3% 10%;
+  height: 854px;
+}
+
+form{
+  margin-top: 3rem;
+}
+
+.inputPlace {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+
+.inputPlace input{
+  border-radius: 100px;
+  height: 40px;
+  width: 80%;
+  padding: 5%;
+  background-color: #26292C;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+form button{
+  width: 80%;
+  border-radius: 100px;
+  border: #E32F0C 1px solid;
+  background-color: #C32F12;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  padding: .8rem 3rem;
+  color: #fff;
+  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);
+  background: linear-gradient(to right, #FF2D04, #C13216);
+  cursor: pointer;
+  margin-left: -20%;
+  margin-top: 20%;
+}
