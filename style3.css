@@ -28,13 +28,41 @@
     border-radius: 0 14px 0 0;
 }
 
+.logo{
+    top: 20px;
+    right: 15px;
+    background-color: #fff;
+    width: 174px;
+}
+
+
+h4{
+    background-color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 85px;
+    font-weight: bolder;
+}
+
 h1,h5{
     background-color: black;
     color: #fff;
     margin-top: 15px;
     border-radius: 0px 0px 15px 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
+h5{
+    margin-top: -13px;
+}
+
+h3{
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 25px;
+}
 
 img{
     right: 0;
@@ -56,6 +84,7 @@ button{
     border: 0px;
     color: #fff;
     font-weight: bolder;
+    font-size: 17px;
 }
 
 .btn1{
@@ -94,5 +123,67 @@ input[type='time']{
     width: 120px;
     height: 45px;
     margin-left: 5px;
+}
+
+.day1{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day2{
+    background-color: #FF8000;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day3{
+    background-color: #FFCE00;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day4{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day5{
+    background-color: #FF8000;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day6{
+    background-color: #FFCE00;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.day7{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.selectDay{
+    margin-top: 15px;
+    margin-left: 80px;
 }
 
