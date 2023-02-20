@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weekly Planner</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    <div>
-        <section>
-            <h1>Weekly Planner</h1>
-            <h5>Use this planner to organize your daily issues.</h5>
+    <div class="main">
+        <section class="header">
+            <div class="title">
+                <h1>Weekly Planner</h1>
+                <h5>Use this planner to organize your daily issues.</h5>]
+            </div>
         </section>
-        <section>
-            <input type="text">
+        <section class="action">
+            <input type="text" placeholder="Task or issue">
             <select name="day" id="day">
                 <option value="0">Monday</option>
                 <option value="1">Tuesday</option>
@@ -23,13 +26,14 @@
                 <option value="5">Saturday</option>
                 <option value="6">sunday</option>
                 <input type="time">
-                <button>+ Add to calender</button>
-                <button>- Delete all</button>
+                <div class="btn">
+                    <button class="btn1">+ Add to calender</button>
+                    <button class="btn2">- Delete all</button>
+                </div>
             </select>
         </section>
-            
-        <section>
-
+        <section class="tasks">
+            <img src="background2.svg" alt="">
         </section>
     </div>
 </body>

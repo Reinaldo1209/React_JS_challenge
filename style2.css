@@ -24,10 +24,16 @@
     background-size: cover;
   }
   
-  img{
+  .back{
     max-width: 100%;
   }
-
+  
+  .logo{
+    max-width: 400px;
+    position: absolute;
+    top: 30px;
+    right: 12%;
+  }
 
 h1{
   font-size: 3rem;

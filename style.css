@@ -24,8 +24,15 @@
   background-size: cover;
 }
 
-img{
-  max-width: 200%;
+.back{
+  max-width: 100%;
+}
+
+.logo{
+  max-width: 400px;
+  position: absolute;
+  top: 30px;
+  right: 12%;
 }
 
 h1{
@@ -42,7 +49,7 @@ h5{
   width: 50%;
   background: linear-gradient(#33383D, #1C1D20);
   padding: 3% 10%;
-  height: 927px;
+  height: 854px;
 }
 
 form{
@@ -69,7 +76,7 @@ form{
   background-color: #26292C;
   color: #fff;
   border: 1px solid #fff;
-  margin-right: 0%;
+  right: 0;
 }
 
 form button{

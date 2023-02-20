@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: #fff;
+    height: 130px;
+    top:0;
+}
+
+.title{
+    position: absolute;
+    background-color: black;
+    top: 25px;
+    width: 490px;
+    height: 65px;
+    border-radius: 0 14px 0 0;
+}
+
+h1,h5{
+    background-color: black;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 0px 0px 15px 0;
+}
+
+
+img{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.btn{
+    right: 15px;
+    position: absolute
+}
+
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.btn1{
+    background-color: #00BA88;
+}
+
+.btn2{
+    background-color: #FF3D1F;
+}
+
+.action{
+    display: flex;
+    margin-top: 20px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px #FECE00 solid;
+}
+
+select{
+    border-radius: 10px;
+    border: 1px #FECE00 solid;
+    width: 240px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+input[type='text']{
+    width: 390px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+input[type='time']{
+    width: 120px;
+    height: 45px;
+    margin-left: 5px;
+}
+
