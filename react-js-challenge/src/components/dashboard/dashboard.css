@@ -1,1 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+.mains{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: #fff;
+    height: 130px;
+    top:0;
+}
+
+.title{
+    position: absolute;
+    background-color: black;
+    top: 25px;
+    width: 490px;
+    height: 65px;
+    border-radius: 0 14px 0 0;
+}
+.h1{
+    background-color: black;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 0px 0px 15px 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.h5{
+    background-color: black;
+    color: #fff;
+    margin-top: -10px;
+    border-radius: 0px 0px 15px 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.h3{
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 25px;
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px #FECE00 solid;
+    width: 390px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.select{
+    border-radius: 10px;
+    border: 1px #FECE00 solid;
+    width: 240px;
+    height: 45px;
+    margin-left: 5px;
+}
+.btn{
+    right: 15px;
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    display: flex;
+}
+    
+
+.btn1{
+    background-color: #00BA88;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+    
+.btn2{
+    background-color: #FF3D1F;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+    
+.action{
+    display: flex;
+    margin-top: 20px;
+}
+    
+.day1{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day2{
+    background-color: #FF8000;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day3{
+    background-color: #FFCE00;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day4{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day5{
+    background-color: #FF8000;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day6{
+    background-color: #FFCE00;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.day7{
+    background-color: #FF0024;
+    height: 33px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.selectday{
+    margin-top: 45px;
+    margin-left: -200px;
+}
+
+.img{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+}
 

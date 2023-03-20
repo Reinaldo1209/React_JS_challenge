@@ -18,7 +18,7 @@ export default function Cadastro(){
         }));
     };
 
-
+    const navigate = useNavigate()
     function validate(){
         console.log(localStorage.getItem("user"))
         var person = JSON.parse(localStorage.getItem('user'))
@@ -29,8 +29,9 @@ export default function Cadastro(){
         console.log(typeof correctuser)
 
         if(correctuser === user.firstname && correctpassword === user.password)
-        alert('Login efetuado com sucesso')
-        else alert ('Usuario ou senha invalidos')
+        navigate("/dash")
+        else 
+        alert ('Usuario ou senha invalidos')
     }
 
     return (
@@ -45,14 +46,14 @@ export default function Cadastro(){
          <form onSubmit={validate}>
                 <div className="Inputs">
                 <div className="inputPlace">
-                    <label for="firstsname">first name <input type="text" value={user.firstname} name="firstname" onChange={handleChange} placeholder="Your first name"/></label>
+                    <label for="firstsname">first name <input type="text" value={user.firstname} name="firstname" onChange={handleChange} placeholder="Your first name" className='inputs'/></label>
                 </div>
                 <div className="inputPlace">
-                    <label for="firstsname">password<input type="text" value={user.password} name="password" onChange={handleChange} placeholder="password"></input></label>
+                    <label for="firstsname">password<input type="text" value={user.password} name="password" onChange={handleChange} placeholder="password" className='inputs'></input></label>
                 </div>
           
                 <div className="Center">
-                    <button onClick={validate}>Register Now</button>
+                    <button onClick={validate} className="button">Register Now</button>
                     
                 </div>
                 </div>
@@ -64,7 +65,7 @@ export default function Cadastro(){
         </div>
         <div className='background'>
             <img src={imgbackground} className='back'/>
-            <img src={imglogo} className='logo'/>
+            <Link to="https://www.uol.com.br/"><img src={imglogo} className='logo'/></Link>
         </div>
         </div>
     )

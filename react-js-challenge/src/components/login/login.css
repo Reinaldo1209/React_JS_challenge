@@ -68,7 +68,7 @@ margin-top: 10%;
 }
 
 
-input{
+.inputs{
   border-radius: 100px;
   height: 40px;
   width: 70%;
@@ -83,7 +83,7 @@ input{
   margin-top: 45%;
 }
 
-button{
+.button{
   width: 100%;
   border-radius: 100px;
   border: #E32F0C 1px solid;
@@ -99,6 +99,6 @@ button{
 }
 
 .link{
-  margin-bottom: 260px;
+  margin-bottom: 300px;
   margin-top: 10px;
 }

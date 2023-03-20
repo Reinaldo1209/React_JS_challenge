@@ -49,7 +49,7 @@ h3{
   width: 50%;
   background: linear-gradient(#33383D, #1C1D20);
   padding: 3% 10%;
-  height: 90%;
+  height: 80%;
   margin-top: -2%;
   margin-bottom: -10%;
 }
@@ -69,7 +69,7 @@ label {
 }
 
 
-input{
+.inputx{
   border-radius: 100px;
   height: 40px;
   width: 70%;
@@ -80,7 +80,7 @@ input{
   margin-top: -4%;
 }
 
-button{
+.button{
   width: 100%;
   border-radius: 100px;
   border: #E32F0C 1px solid;
@@ -98,3 +98,7 @@ button{
   border: red;
 }
 
+.spans{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}

@@ -13,7 +13,7 @@ function App() {
     <Route path="/new-user" element={<Cadastro/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/dash" element={<Dashboard/>}/>
-    <Route path="/" element={<Navigate to="/new-user"/>}/>
+    <Route path="/" element={<Navigate to="/login"/>}/>
     </Routes>
     </BrowserRouter>
   );
