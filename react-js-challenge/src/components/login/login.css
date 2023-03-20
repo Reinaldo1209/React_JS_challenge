@@ -64,6 +64,7 @@ label {
   color: #fff;
   margin-top: 3%;
   justify-content: space-between;
+margin-top: 10%;
 }
 
 
@@ -78,6 +79,10 @@ input{
 
 }
 
+.Inputs{
+  margin-top: 45%;
+}
+
 button{
   width: 100%;
   border-radius: 100px;
@@ -90,4 +95,10 @@ button{
   box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);
   background: linear-gradient(to right, #FF2D04, #C13216);
   cursor: pointer;
+ 
+}
+
+.link{
+  margin-bottom: 260px;
+  margin-top: 10px;
 }

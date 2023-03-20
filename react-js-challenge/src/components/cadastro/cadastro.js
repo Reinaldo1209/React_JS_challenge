@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from '../login/Login'
-import Dashboard from '../dashboard/Dashboard'
+import { Link, useNavigate } from "react-router-dom";
 import './cadastro.css'
 import imgbackground from './background.jpg'
 import imglogo from './logoneg.svg'
@@ -24,12 +22,14 @@ export default function Cadastro(){
             [name]: value
         }));
     };
-
+    const navigate = useNavigate("/login")
 
     function validate(){
+
         localStorage.setItem("user",JSON.stringify(user));
         console.log(localStorage.getItem("user"))
     }
+
 
     return (
         <div className='main'>
@@ -40,9 +40,9 @@ export default function Cadastro(){
             <h3>
                 Please, register to continue
             </h3>
-            {/* <form onSubmit={validate}> */}
+            <form onSubmit={validate}>
                 <div className="inputPlace">
-                    <label for="firstsname">first name <input type="text" value={user.firstname} name="firstname" onChange={handleChange} placeholder="Your first name"/></label>
+                    <label for="firstsname">first name <input className={user === " " ? "erro" : "certo"} type="text" value={user.firstname} name="firstname" onChange={handleChange} placeholder="Your first name"/></label>
                 </div>
                 <div className="inputPlace">
                     <label for="firstsname">last name<input type="text" value={user.lastname} name="lastname" onChange={handleChange} placeholder="Your last name"></input></label>
@@ -68,18 +68,13 @@ export default function Cadastro(){
                 <div className="Center">
                     <button onClick={validate}>Register Now</button>
                 </div>
-            {/* </form> */}
+                <span><Link to="/login">Back to login</Link></span>
+            </form>
         </div>
         <div className='background'>
             <img src={imgbackground} className='back'/>
             <img src={imglogo} className='logo'/>
         </div>
-        {/* <Routes>
-         <Route path="/" component={Cadastro} />
-         <Route path="/Login" component={Login} />
-         <Route path="/Dashboard" component={Dashboard} />
-       </Routes> */}
         </div>
-
     )
 }
